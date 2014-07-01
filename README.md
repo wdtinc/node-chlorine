@@ -38,6 +38,7 @@ Or did I?
 
 ### Making a Query ###
 Pools are saved and managed by chlorine. You can access your pool through chlorine by the "poolName" option in the creation configuration. For example, let's make a query with the pool we created from the example above:
+
 ```js
 chlorine.myPool.query('SELECT * FROM myTable WHERE id = ? AND name = ?', [7, 'Johnson'], function (error, data) {
     if (error) {
@@ -48,6 +49,7 @@ chlorine.myPool.query('SELECT * FROM myTable WHERE id = ? AND name = ?', [7, 'Jo
     }
 });
 ```
+
 When you call `chlorine.poolName.query` Chlorine will create a connection to the database, make your query, get the results, then close the connection freeing it to be used elsewhere.
 
 ### Questions ###
