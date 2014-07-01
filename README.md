@@ -11,7 +11,7 @@ To create a pool you will need to provide a configuration object for the databas
 var chlorine = require('chlorine');
 
 var poolCreationConfig = {
-    type: 'mysql',
+    type: 'mysql', //Valid values are currently 'mysql' and 'postgres'. Chlorine will fallback on mySQL if an invalid value is passed.
     poolName: 'myPool', //The variable name of the pool
     poolConfig: {
         max: 25, //Maximum number of connections
