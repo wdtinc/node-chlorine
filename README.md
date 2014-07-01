@@ -32,7 +32,7 @@ var poolCreationConfig = {
 chlorine.createPool(poolCreationConfig);
 ```
 
-But wait! You forgot to create a var for the pool, and now it is gone forever! YOU FOOL!
+"But wait! You forgot to create a var for the pool, and now it is gone forever! YOU FOOL!"
 
 Or did I?
 
