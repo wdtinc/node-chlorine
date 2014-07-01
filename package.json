@@ -1,0 +1,20 @@
+{
+  "name": "chlorine",
+  "version": "0.0.1",
+  "description": "A tool to keep your database pool clean",
+  "main": "chlorine.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gsipe@stash.wdtinc.com/scm/~gsipe/chlorine.git"
+  },
+  "author": "Phillip Sipe, Karl Kirch, Jordan Rousseau, Devin Clark",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.3.2",
+    "pg": "^3.3.0",
+    "xtend": "^3.0.0"
+  }
+}
