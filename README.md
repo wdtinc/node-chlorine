@@ -43,6 +43,7 @@ Pools are saved and managed by chlorine. You can access your pool through chlori
 chlorine.myPool.query('SELECT * FROM myTable WHERE id = ? AND name = ?', [7, 'Johnson'], function (error, data) {
     if (error) {
         console.log('Oh noes! An errorz!');
+        console.log(error);
     } else {
         console.log('Success! Behold our results and tremble!');
         console.log(data);

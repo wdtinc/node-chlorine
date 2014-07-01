@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://gsipe@stash.wdtinc.com/scm/~gsipe/chlorine.git"
   },
-  "author": "Phillip Sipe, Karl Kirch, Jordan Rousseau, Devin Clark",
+  "author": "Phillip Sipe, Karl Kirch",
   "license": "ISC",
   "dependencies": {
     "mysql": "^2.3.2",
