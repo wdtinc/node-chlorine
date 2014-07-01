@@ -6,6 +6,7 @@ Chlorine works by spinning up one time use connections. A connection is created,
 
 ### Creating a Pool ###
 To create a pool you will need to provide a configuration object for the database pool. Here's an example which utilizes all the options:
+
 ```js
 var chlorine = require('chlorine');
 
@@ -30,6 +31,7 @@ var poolCreationConfig = {
 
 chlorine.createPool(poolCreationConfig);
 ```
+
 But wait! You forgot to create a var for the pool, and now it is gone forever! YOU FOOL!
 
 Or did I?
