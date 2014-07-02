@@ -13,7 +13,7 @@
   "author": "Phillip Sipe (gsipe@wdtinc.com)",
   "contributors": [
       "Karl Kirch (kkirch@wdtinc.com)"
-  ]
+  ],
   "license": "Apache 2.0",
   "dependencies": {
     "generic-pool": "^2.1.0",
