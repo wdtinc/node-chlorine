@@ -13,6 +13,7 @@
   "author": "Phillip Sipe, Karl Kirch",
   "license": "ISC",
   "dependencies": {
+    "generic-pool": "^2.1.0",
     "mysql": "^2.3.2",
     "pg": "^3.3.0",
     "xtend": "^3.0.0"
