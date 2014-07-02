@@ -4,6 +4,13 @@ Chlorine is very easy to use. Currently MySQL and Postgres databases are support
 
 Chlorine works by spinning up one time use connections. A connection is created, a query is made, the result is returned, and the connection is closed and returned to the pool. This is all abstracted away so that all you need to do is create the pool and make queries.
 
+### Installing Chlorine ###
+To install Chlorine simply use NPM:
+
+```sh
+npm install chlorine
+```
+
 ### Creating a Pool ###
 To create a pool you will need to provide a configuration object for the database pool. Here's an example which utilizes all the options:
 
