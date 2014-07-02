@@ -11,7 +11,7 @@
     "url": "https://gsipe@stash.wdtinc.com/scm/~gsipe/chlorine.git"
   },
   "author": "Phillip Sipe, Karl Kirch",
-  "license": "ISC",
+  "license": "Apache 2.0",
   "dependencies": {
     "generic-pool": "^2.1.0",
     "mysql": "^2.3.2",
