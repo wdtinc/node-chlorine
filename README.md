@@ -60,5 +60,5 @@ chlorine.myPool.query('SELECT * FROM myTable WHERE id = ? AND name = ?', [7, 'Jo
 
 When you call `chlorine.poolName.query` Chlorine will create a connection to the database, make your query, get the results, then close the connection freeing it to be used elsewhere.
 
-### Questions ###
-Feel free to contact Phillip at gsipe@wdtinc.com for questions regarding Chlorine.
+### Questions/Issues/Ideas? ###
+If you encounter any issues, have any questions, or have an idea for Chlorine, please feel free to open up an issue or request ticket and we'll get back to you.
