@@ -10,11 +10,19 @@
     "type": "git",
     "url": "https://gsipe@stash.wdtinc.com/scm/~gsipe/chlorine.git"
   },
-  "author": "Phillip Sipe (gsipe@wdtinc.com)",
+  "author": "Weather Decision Technologies, Inc.",
+  "homepage": "http://wdtinc.com",
   "contributors": [
-      "Karl Kirch (kkirch@wdtinc.com)"
+      {
+          "name": "Phillip Sipe",
+          "email": "gsipe@wdtinc.com"
+      },
+      {
+          "name": "Karl Kirch",
+          "email": "kkirch@wdtinc.com"
+      }
   ],
-  "license": "Apache 2.0",
+  "license": "Apache License 2.0",
   "dependencies": {
     "generic-pool": "^2.1.0",
     "mysql": "^2.3.2",
