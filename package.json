@@ -1,6 +1,6 @@
 {
   "name": "chlorine",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A tool to keep your database pool clean",
   "main": "chlorine.js",
   "scripts": {
@@ -13,14 +13,14 @@
   "author": "Weather Decision Technologies, Inc.",
   "homepage": "http://wdtinc.com",
   "contributors": [
-      {
-          "name": "Phillip Sipe",
-          "email": "gsipe@wdtinc.com"
-      },
-      {
-          "name": "Karl Kirch",
-          "email": "kkirch@wdtinc.com"
-      }
+    {
+      "name": "Phillip Sipe",
+      "email": "gsipe@wdtinc.com"
+    },
+    {
+      "name": "Karl Kirch",
+      "email": "kkirch@wdtinc.com"
+    }
   ],
   "license": "Apache License 2.0",
   "dependencies": {
