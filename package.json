@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "A tool to keep your database pool clean",
   "main": "chlorine.js",
+  "keywords": ["javascript", "database", "pooling", "mysql", "postgres", "node", "chlorine", "js", "db", "pg"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
