@@ -1,7 +1,7 @@
 /*jslint node: true*/
 /*jslint nomen: true*/
 var mysql = require('mysql'),
-    pg = require('pg'),
+    pg = require('pg.js'),
     genericPool = require('generic-pool'),
     extend = require('xtend');
 

@@ -38,7 +38,7 @@
   "dependencies": {
     "generic-pool": "^2.1.0",
     "mysql": "^2.3.2",
-    "pg": "^3.3.0",
+    "pg.js": "^3.4.1",
     "xtend": "^3.0.0"
   }
 }
