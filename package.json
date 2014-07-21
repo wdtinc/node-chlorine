@@ -1,6 +1,6 @@
 {
   "name": "chlorine",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A tool to keep your database pool clean",
   "main": "chlorine.js",
   "keywords": [
